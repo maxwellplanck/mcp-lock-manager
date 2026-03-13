@@ -1,0 +1,28 @@
+{
+  "name": "mcp-lock-manager",
+  "version": "1.0.0",
+  "description": "MCP server for file-level exclusive locking across multiple Claude Code instances",
+  "type": "module",
+  "bin": {
+    "mcp-lock-manager": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "keywords": ["mcp", "lock", "manager"],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "zod": "^3.24.4"
+  }
+}
