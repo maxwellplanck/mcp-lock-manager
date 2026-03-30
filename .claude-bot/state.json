@@ -1,0 +1,25 @@
+{
+  "history": [
+    {
+      "timestamp": "2026-03-13T06:06:51.553239+00:00",
+      "user": "planckfamily",
+      "prompt_summary": "let me know the state of this mcp. Does it have all of the pieces to make it clear to the public where I could share how to set it up",
+      "feature": null
+    },
+    {
+      "timestamp": "2026-03-13T06:09:41.222074+00:00",
+      "user": "planckfamily",
+      "prompt_summary": "yep create the README and .gitignore",
+      "feature": null
+    }
+  ],
+  "default_session_id": "1f17c9b3-e89e-4312-bd3e-ef0b93c129b8",
+  "model": "claude-opus-4-6",
+  "session_usage": {
+    "total_input_tokens": 98746,
+    "total_output_tokens": 1994,
+    "total_cost_usd": 0.2902944,
+    "prompt_count": 2
+  },
+  "bridgecrew_project_id": "01KMF6QVHGNPNPQ8D49AAGQC33"
+}
